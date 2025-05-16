@@ -20,8 +20,7 @@ public class Main {
             System.out.println("8. Quit");
             System.out.print("Enter your choice: ");
             choice = scanner.nextInt();
-            scanner.nextLine();  // consume newline
-
+            scanner.nextLine();
 
             switch (choice) {
                 case 1:
@@ -66,7 +65,7 @@ public class Main {
 
         System.out.println("Enter ending index:");
         int endIndex = scanner.nextInt();
-        scanner.nextLine(); // consume newline
+        scanner.nextLine(); 
 
 
         String substring = input.substring(beginIndex, endIndex);
@@ -87,7 +86,7 @@ public class Main {
 
         System.out.println("Enter End:");
         int end = scanner.nextInt();
-        scanner.nextLine(); // consume newline
+        scanner.nextLine(); 
 
 
         for (int i = start; i <= end; i++) {
@@ -103,7 +102,7 @@ public class Main {
 
         System.out.println("Enter high:");
         int high = scanner.nextInt();
-        scanner.nextLine(); // consume newline
+        scanner.nextLine(); 
 
 
         int sumHigh = (high * (high + 1)) / 2;
@@ -136,7 +135,7 @@ public class Main {
 
         System.out.println("Enter second word:");
         String word2 = scanner.next();
-        scanner.nextLine(); // consume newline
+        scanner.nextLine(); 
 
 
         int dots = 30 - word1.length() - word2.length();
@@ -163,7 +162,7 @@ public class Main {
             int number = scanner.nextInt();
             sum += number;
         }
-        scanner.nextLine(); // consume newline
+        scanner.nextLine(); 
 
 
         System.out.println("The sum is " + sum);
@@ -192,6 +191,6 @@ public class Main {
 
             System.out.printf("Shipping Cost: $%.2f\n", cost);
         }
-        scanner.nextLine(); // consume newline
+        scanner.nextLine(); 
     }
 }
